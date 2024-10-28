@@ -1,0 +1,134 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style> 
+        
+            p { 
+                color: darkgrey;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+                width: 50%;
+            }
+            #quote {
+                color: magenta;
+                font-style: italic;
+                border: solid lightskyblue 2px;
+            }
+
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 25%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                width: 200px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #book {
+                color: darkgrey;
+                font-style: italic;
+                border: solid darkgreen 2px;
+                
+            }
+            #long {
+                width: 100px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <h1> A little bit about me!</h1>
+
+        
+        <h2>My intro</h2>
+            <p> Hi! My name is <strong> Iris</strong>, and I'm a sophomore from Connecticut studying <strong> Magazine, News, and Digital Journalism</strong> and a minor in <strong> Private Music Study with a concentration in Piano</strong>. My family consists of my immediate family: my mom, dad, two older brothers, and my cat Maya. For fun, I run my own blog, called <a href="https://pennyforathought6.wordpress.com/" target="_blank"><i> Penny for a Thought</i></a>, where I discuss weekly music fixations and casual, self-reflection content. I have a deep interest in many things, and am passionate about a variety of topics, which I think makes me unique. </p>
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+            <p> Feel free to follow me on <a href="https://www.instagram.com/iris.araki/" target="_blank"><i> Instagram</i></a> or <a href="https://www.linkedin.com/in/iris-araki-b59b79284/" target="_blank"><i> LinkedIn</i></a>. I'd recommend following my LinkedIn first, then my Instagram.</p>
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <p>My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+            </p><img src="large_wink.png" alt="an image of my favorite meme" height="300px" width="400px">
+
+    
+        <h2>Why I'm a great student</h2>
+            </p>
+             <ul>
+                <li><strong>I'm very rational.</strong> I'll listen to both sides of an argument, then determine my answer.</li>
+                <li><strong>I have a positive mindset.</strong> Unless there's a reason for me to be negative, I won't be.</li>
+                <li><strong>I'm very organized.</strong> I've been an avid user of Google Calendar since my freshman year of high school. It's my strongest skillset.</li>
+                <li><strong>I'm passionate.</strong> With everything I do, there's a purpose. I  devote my absolute time and energy to projects and work.</li>
+        
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+            </p>
+              <ol>
+                 <li><a href="https://en.wikipedia.org/wiki/Scooter_Braun"><i> Scooter Braun</i></a> - manager for Justin Bieber, had a very public dispute with Taylor Swift</li>
+                 <li><a href="https://en.wikipedia.org/wiki/Matt_Lauer"><i> Matt Lauer</i></a> - former <i> Today Show</i> host, horrible person</li>
+                 <li><a href="https://en.wikipedia.org/wiki/Steve_Young"><i> Steve Young</i></a> - Pro Football Hall of Fame quarterback</li>
+
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+            <p> Walking past unfamiliar faces<br> To now those I consider my closest people<br> From an unknown city<br> To one I now call home <br> Syracuse may not have much to offer<br> But it offers just enough</p>
+    
+
+        <h2>This is one of my favorite quotes</h2>
+            <p id="quote"><i>“Medicine, law, business, engineering, these are all noble pursuits, and necessary to sustain life. But poetry, beauty, romance, love, these are what we stay alive for.” </i>
+                <h3>― Dead Poet’s Society</h3></p>
+
+
+        <h2>These are more of my favorite books</h2>
+            <p id="book"><ul>
+                <li>I'm Glad My Mom Died by Jennette McCurdy</li>
+                <li>The Joy Luck Club by Amy Tan</li>
+                <li>The Lovely Bones by Alice Sebold</li></ul></p>
+        
+
+        <h2>Here's how I normally spend my weekend</h2>
+            <iframe title="Hours Spent Throughout a Typical Weekend" aria-label="Column Chart" id="datawrapper-chart-9pPH9" src="https://datawrapper.dwcdn.net/9pPH9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="465" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+
+        <div id="bargraph">
+            <h4>Length of bars</h4>
+            <p class="bar_label">Longest</p>
+            <div id="longest"></div>
+            <p class="bar_label">Longer</p>
+            <div id="longer"></div>
+            <p class="bar_label">Long</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
